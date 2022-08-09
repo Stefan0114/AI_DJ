@@ -31,6 +31,7 @@ function draw()
     stroke("#FF0000");
 
     if(scoreRightWrist > 0.2)
+    {
     circle(rightWristX, rightWristY, 20);
 
     if(rightWristY > 0 && rightWristY <= 100)
@@ -62,7 +63,7 @@ function draw()
         document.getElementById("speed").innerHTML = "Speed = 2.5x";
         song.rate(2.5);
     }
-
+    }
     if(scoreLeftWrist > 0.2)
     {
     circle(leftWristX, LeftWristY, 20);
